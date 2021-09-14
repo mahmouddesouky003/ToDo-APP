@@ -1,0 +1,43 @@
+body {
+    background: white;
+}
+
+.card {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: #444;
+}
+
+.none {
+    display: none;
+}
+
+.btn {
+    padding: 3px;
+}
+
+.checked {
+    background-color: gray !important;
+    text-decoration: line-through;
+}
+
+.display {
+    display: block;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width:720px) {
+    .h111 {
+        font-size: 35px;
+    }
+}
